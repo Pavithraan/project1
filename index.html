@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        function getdata()
+        {
+            var name=document.getElementById("name").value;
+            var email=document.getElementById("email").value;
+            var number=document.getElementById("number").value;
+            var feedback=document.getElementById("feedback").value;
+            var html="<table>";
+            html+="<tr>";
+            html+="<th>Name</th><th>Email</th><th>Number</th><th>Feedback</th>";
+            html+="</tr>";
+            html+="<tr>";
+            html+="<td>"+name+"</td><td>"+email+"</td><td>"+number+"</td><td>"+feedback+"</td>";
+            html+="</tr>";
+            html+="</table>";
+            document.getElementById("details").innerHTML=html;
+        }
+    </script>
+    <div class="header">
+        <h1>CHENNAI SILKS</h1>
+    </div><hr>
+    <!-- <div class="conatiner"> -->
+    <div class="navbar">
+        <header>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#cards">CARDS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </header><hr>
+    </div>
+    <div class="main">
+        <div class="container" id="home">
+            <div class="text-black">
+                <p>The largest textile kingdom in
+                 Tamil Nadu, The Chennai Silks (TCS) has proven to be a shopper's delight for generations of families.
+                  It has a widespread reach with sprawling showrooms in Chennai, Coimbatore, Tirupur, Erode, Trichy,
+                   Karur, Ernakulam, Tirunelveli, Vellore, Salem, Villupuram, Hosur, Madurai, Chittoor, Hyderabad, 
+                   Kumbakonam, Tuticorin, Tiruvallur, Dindigul and Tanjore. The Chennai Silks continues its endeavours 
+                   to reach out to customers, beyond barriers and beyond boundaries...</p>
+            </div>
+            <div style="text-align: right;padding-left:5px;">
+                <img src="image.jpg" width="100%" height="400px">
+            </div>
+        </div>
+        <div class="container1" id="about">
+                <p>Over the years, SKTM has been known for their skilled craftmanship, lowest making charges as well as fixed prices, have been installed at the showrooms to check ornaments for 22 carat gold quality.
+                     The products are manufactured at their own manufacturing unit KTM Jewellery Limited.
+                    </p>
+        </div>
+        <div class="container2">
+            <a><image src="3.jpg"></a>
+            <a><image src="6.jpg"></a>
+            <a><image src="5.jpg"></a>
+        </div><br><br>
+        <div class="tablecontent" id="cards">
+          <!-- <table>
+              <tr>WESTRAN</tr>
+              <tr><td>WOMEN</td><td>MEN</td><td>KIDS</td></tr>
+            </table>
+            <table>
+              <tr>TRADISIONAL</tr>
+              <tr><td>WOMEN</td><td>MEN</td><td>KIDS</td></tr>
+          </table> -->
+          <table>
+              <tr><td id="ta" colspan="3">WESTRAN</td></tr>
+              <tr><th>WOMEN</th><th>MEN</th><th>KIDS</th></tr>
+              <tr><td>top</td><td>shirt</td><td>tshirt</td></tr>
+              <tr><td>jeens</td><td>jeens</td><td>pant</td></tr>
+              <tr><td id="ta" colspan="3">TRADISIONAL</td></tr>
+              <tr><th>WOMEN</th><th>MEN</th><th>KIDS</th></tr>
+              <tr><td>saree</td><td>kurthi</td><td>shirt</td></tr>
+              <tr><td>gown</td><td>pant</td><td>pant</td></tr>
+          </table>
+        </div><br>
+        <div class="container" id="contact">
+        <div class="left" >
+                <p>Connect with Us<br>
+                    Contact:<br>
+                    +91 999 481 1711<br>
+                    +91 421 224 2888<br>
+                    Email:<br>
+                    online@thechennaisilks.com</p>
+        </div>
+            <div class="form1">
+                <form onsubmit="getdata(); return false">
+                    <h1>CONTACT DETAILS</h1>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" value=" " required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" value=" " required><br>
+                    <label for="Phone number">Phone Number:</label><br>
+                    <input type="number" id="number" name="Phone" value=" " required><br>
+                    <br>
+                    <label  for="feedback">Feed Back:</label><br>
+                    <textarea id="feedback" cols="20" rows="5" required></textarea><br><br>
+                    <input type="submit" id="submit" value="SUBMIT">
+                </form>
+            </div>
+            <div id="details">
+
+            </div>
+        </div>
+    </div>
+    <!-- </div> -->
+    
+</body>
+</html>

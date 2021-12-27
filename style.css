@@ -1,0 +1,227 @@
+body
+{
+    /* background-image: linear-gradientto (to right, Pink, rgb(24, 206, 230)); */
+    /* background-color: cornsilk; */
+    background-image: linear-gradient(to right,pink,rgb(29, 148, 228),rgb(24,206,230));
+}
+
+.header
+{
+    display: block;
+    height: 30%;
+    background-color: sandybrown;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+    padding: 10px;
+    /* background-image: linear-gradient(to right,pink,rgb(29, 148, 228),rgb(24,206,230)); */
+}
+/* .menu
+{
+    /* padding-top: 90px;
+    padding-bottom: 90px;
+    float: left;
+    width: 15%;
+    min-height: 70vh; */
+    /* background-color: rgb(185, 241, 211); */
+    /* background-image: linear-gradient(to right,pink,rgb(29, 148, 228),rgb(24,206,230)); */
+    /* background-color: cyan; */
+    /* display: flex;
+    list-style: none; */
+    /* float: clear; */
+
+/* .menu li
+{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+    padding: 10%;
+    font-weight: 900;
+    font-size: x-large;
+} */
+header *
+{
+    display: flex;
+}
+li a:active
+{
+    background-color: darksalmon;
+    color: crimson;
+}
+header
+{
+    background-image: linear-gradient(to right,pink,rgb(29, 148, 228),rgb(24,206,230));
+}
+header ul li a
+{
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 150%;
+}
+.first
+{
+    background-color: rgb(228, 204, 204);
+    padding: 10px;
+}
+.container p
+{
+    width: 100%;
+    font-style: italic;
+    color: yellow;
+    
+    font-size: 20px;
+    padding-top: 100px;
+    /* border: solid;    */
+}
+.text-black
+{
+    background-color: #000000;
+    padding: 10px;
+}
+.container {
+    /* float: none; */
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    padding: 10px;
+    /* background-color: rgb(164, 184, 129); */
+    /* background-image: linear-gradient(to right,pink,rgb(29, 148, 228),rgb(24,206,230)); */
+}
+.container div {
+    width: 100%;
+    
+    
+    /* border: solid; */
+
+    /* padding: 10px; */
+}
+.container a{
+    padding-top: 10px;
+    padding: 20%;
+}
+.container1
+{
+    text-align: center;
+    font-size: x-large;
+    color: black;
+}
+.form1
+{
+    width: 90%;
+    float: right;
+    /* background-image: linear-gradient(to right,pink,rgb(29, 148, 228),rgb(24,206,230)); */
+    padding: 50px;
+    color: black;
+    font-weight: bold;
+
+}
+.form1 h1{
+    color: rgb(155, 4, 54);
+    text-shadow: 1px 1px 2px wheat;
+}
+
+.left{
+    float: none;
+    width: 90%;
+    float: left;
+    /* background-image: linear-gradient(to right,pink,rgb(29, 148, 228),rgb(24,206,230)); */
+}
+.left p{
+    color: black;
+    font-weight: bold;
+    padding-top: 80px;
+}
+#submit
+{
+    padding: 10px;
+    width: 20%;
+    align-items: center;
+    background-color: rgb(63, 248, 88);
+    color: darkblue;
+    font-weight: bold;
+}
+/* .tablecontent,tr,td
+{
+    border: 2px solid saddlebrown;
+    border-collapse: collapse;
+    width: 80%;
+    align-items: center;
+} */
+/* table,tr,th
+{
+    align-items: center;
+    border:1px solid saddlebrown;
+    border-collapse: collapse;
+    float: right;
+    border-spacing: 10%;
+}
+#ta
+{
+    float: none;
+    color: rgb(8, 64, 248);
+}
+#sub
+{
+    float: none;
+    color: rgb(255, 255, 255);
+    colspan="3";
+    align-items: center;
+} */
+table
+{
+    width: 80%;
+    /* border-collapse: collapse; */
+    border: 2px solid rgb(228, 112, 10);
+    border-radius: 20px;
+    
+}
+table th
+{
+    border: 2px solid rgb(228, 112, 10);
+    color: white;
+    padding: 10px;
+    background-color: darkgray;
+    border-radius: 20px;
+}
+table td
+{
+    padding: 10px;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    /* padding-left: 150px; */
+    border: 2px dotted rgb(228, 112, 10);
+    font-weight: 900;
+    border-radius: 20px;
+}
+#ta
+{
+    font-style: normal;
+    padding: 10px;
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    /* padding-left: 150px; */
+    border: 2px solid rgb(228, 112, 10);
+    background-color: rgb(187, 236, 138);
+    text-shadow: 1px 1px 1px rgb(241, 79, 233);
+    
+}
+tr:hover
+{
+    background-color: khaki;
+}
+.tablecontent,.container2
+{
+    display: flex;
+    justify-content: center;
+}
+
+.container2 img
+{
+    padding: 5px;
+    border: 2px solid white;
+}
